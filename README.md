@@ -4,7 +4,7 @@
 ### Установка
 * Клонируйте репозиторий
 ```
-git clone https://github.com/Levayaruka/api_final_yatube.git
+git clone
 ```
 * Перейдите в него с помощью встроенной командной строки или предустановленной в IDE(VSCode,PyCharm и другие).
 ```
