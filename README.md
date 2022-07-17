@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Skip to content
 Search or jump to…
 Pull requests
@@ -28,13 +29,19 @@ Latest commit 0ae5d53 5 minutes ago
  1 contributor
 77 lines (76 sloc)  2.22 KB
 
+=======
+>>>>>>> ed03a43957f36cdaa21d0ecac51fa4fedbdc1838
 ## Проект «API для Yatube»
 ### Описание
 Проект представляет собой API для публикации и комментирования записей пользователей, с возможность подписываться на интересующих авторов контента. Аутентификация осуществляется по JWT-токену.
 ### Установка
 * Клонируйте репозиторий
 ```
+<<<<<<< HEAD
 git clone
+=======
+git clone https://github.com/Levayaruka/api_final_yatube.git
+>>>>>>> ed03a43957f36cdaa21d0ecac51fa4fedbdc1838
 ```
 * Перейдите в него с помощью встроенной командной строки или предустановленной в IDE(VSCode,PyCharm и другие).
 ```
@@ -74,7 +81,11 @@ api/v1/jwt/create/
   "access": "string"
 }
 ```
+<<<<<<< HEAD
 Для создания, редактирования публикаций или комментариев необходимо использовать полученный JWT-токен в загаловке запроса(Headers)
+=======
+Для создания, редактирования публикаций или комментариев, просмотра подписок необходимо использовать полученный JWT-токен в загаловке запроса(Headers)
+>>>>>>> ed03a43957f36cdaa21d0ecac51fa4fedbdc1838
 ```
 Authorization: Bearer {ваш токен}
 ```
@@ -105,6 +116,7 @@ Authorization: Bearer {ваш токен}
   "group": 0
 }
 ```
+<<<<<<< HEAD
 Footer
 © 2022 GitHub, Inc.
 Footer navigation
@@ -119,3 +131,5 @@ API
 Training
 Blog
 About
+=======
+>>>>>>> ed03a43957f36cdaa21d0ecac51fa4fedbdc1838
