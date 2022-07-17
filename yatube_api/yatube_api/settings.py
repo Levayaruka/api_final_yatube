@@ -99,11 +99,6 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-<<<<<<< HEAD
-   'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
-   'AUTH_HEADER_TYPES': ('Bearer',),
-=======
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
     'AUTH_HEADER_TYPES': ('Bearer',),
->>>>>>> ed03a43957f36cdaa21d0ecac51fa4fedbdc1838
 }
